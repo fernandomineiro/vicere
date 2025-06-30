@@ -1,0 +1,86 @@
+# Node
+/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn
+
+# Build artifacts
+/dist
+/build
+/web-build
+
+# Expo specific
+.expo/
+*.expo.json
+# Arquivos de cache do Metro Bundler
+.expo-shared/
+# Diretório onde o Expo Go armazena o cache do aplicativo
+.expo-metrics/
+# Cache de pacotes do Expo
+.expo-packager-cache/
+
+# Android specific
+/android/.gradle
+/android/build
+/android/app/build
+/android/app/.idea
+/android/.idea
+/android/local.properties
+/android/*.keystore
+/android/app/*.jks
+/android/app/*.keystore
+/android/app/src/debug/
+/android/gradle-wrapper/
+/android/.
+/android/captures/
+/android/lib_unpacked/
+/android/temp/
+/android/app/src/main/assets/
+/android/app/src/main/res/raw/
+/android/app/src/main/res/xml/
+/android/app/src/main/res/mipmap/
+/android/app/src/main/AndroidManifest.xml
+/android/app/src/main/java/
+/android/app/src/main/jniLibs/
+/android/app/src/main/obj/
+/android/app/src/main/resources/
+
+# iOS specific
+/ios/build
+/ios/Pods
+/ios/.symlinks
+/ios/DerivedData
+/ios/*.xcarchive
+/ios/*.ipa
+/ios/*.app
+/ios/
+/ios/Podfile.lock
+/ios/.xccurrentassets
+/ios/.xcodeproj/project.xcworkspace/
+/ios/.xcodeproj/xcuserdata/
+/ios/.xcworkspace/
+/ios/project.xcworkspace/
+/ios/xcuserdata/
+
+# Editor/IDE specific
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Miscellaneous
+*.log
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+.env
+.env.*
+
+/git
